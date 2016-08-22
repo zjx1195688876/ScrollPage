@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0,user-scalable=no;"/>
+	<title></title>
+	<link rel="stylesheet" href="css/jScroll.css">
+	<style type="text/css">
+		h1{font-size: 32px;text-align: center;color: #ffffff;}
+	</style>
+</head>
+<body>
+	<div class="scroll-container" style="transform: translate3d(0px, 0px, 0px); height: 100%;" >
+		<section class="scroll-1 j-scroll" style="background-color: #6ed9f8;">
+            <h1>第一屏</h1>
+        </section>
+		<section class="scroll-2 j-scroll" style="background-color: #e0dede;">
+			<h1>第二屏</h1>
+        </section>
+        <section class="scroll-3 j-scroll" style="background-color: #999999;">
+			<h1>第三屏</h1>
+        </section>
+	</div>
+
+	<script src="js/jScroll.js"></script>
+	<script type="text/javascript">
+		var scroll = new ScrollPage('j-scroll');
+    	scroll.init();
+	</script>
+</body>
+</html>
